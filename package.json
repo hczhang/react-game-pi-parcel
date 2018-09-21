@@ -2,10 +2,10 @@
   "name": "react-game-pi",
   "version": "1.0.0",
   "description": "react-game-pi",
-  "main": "src/index.html",
+  "main": "index.html",
   "scripts": {
-    "start": "parcel src/index.html --open",
-    "build": "parcel src/build index.html"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
   },
   "dependencies": {
     "create-react-class": "15.6.3",
