@@ -3,7 +3,14 @@
     "env"
   ],
   "plugins": [
-    
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "polyfill": false,
+        "regenerator": true
+      }
+    ],
+    "@babel/plugin-syntax-object-rest-spread",
     [
       "transform-react-jsx",
       {
