@@ -8,6 +8,7 @@
     "build": "parcel build src/index.html"
   },
   "dependencies": {
+    "@babel/core": "7.1.0",
     "@babel/preset-env": "7.1.0",
     "create-react-class": "15.6.3",
     "react": "16.5.2",
