@@ -2,6 +2,7 @@
   "name": "react-game-pi",
   "version": "1.0.0",
   "description": "react-game-pi",
+  "license": "MIT",
   "main": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html --open",

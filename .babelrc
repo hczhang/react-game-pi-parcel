@@ -12,7 +12,7 @@
     ],
     "@babel/plugin-syntax-object-rest-spread",
     [
-      "transform-react-jsx",
+      "@babel/plugin-transform-react-jsx",
       {
         "pragma": "React.createElement"
       }
