@@ -4,15 +4,15 @@
   ],
   "plugins": [
     [
-      "@babel/plugin-transform-runtime",
+      "transform-runtime",
       {
         "polyfill": false,
         "regenerator": true
       }
     ],
-    "@babel/plugin-syntax-object-rest-spread",
+    "transform-object-rest-spread",
     [
-      "@babel/plugin-transform-react-jsx",
+      "transform-react-jsx",
       {
         "pragma": "React.createElement"
       }
